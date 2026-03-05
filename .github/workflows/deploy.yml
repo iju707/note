@@ -29,7 +29,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # 최신 Node.js 버전 사용
+          node-version: 24 # 최신 Node.js 버전 사용
           cache: 'npm'
 
       - name: Install dependencies
