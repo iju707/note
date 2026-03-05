@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
       # 메인 브랜치가 다를 경우 (예: master) 수정해주세요.
 
 permissions:
